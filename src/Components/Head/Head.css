@@ -1,0 +1,96 @@
+.head{
+    
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+
+
+
+.logo{
+    width: 150px;
+    height: 100px;
+    left: 20px;
+    position: fixed;
+}
+
+
+
+
+/* following for dropdowns ("------------" indicate end)*/
+
+.dropdown-root-div{
+    margin-left: 200px;
+    width: fit-content;
+}
+  
+
+.dropdown{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.dropdown-account{
+    position: relative;
+    margin-left: 800px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.dropdown-account:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropbtn {
+    background-color: #4caf4f00;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    transition: .2s;
+    border: none;
+    cursor: pointer;   
+}
+.dropdown:hover .dropbtn {
+    background-color: rgba(255, 0, 0, 0);
+    transform: scale(1.1);
+}
+
+
+.dropdown-content {
+    text-align: right;
+    right: 0;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: #ff000000;
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+.dropdown-content a {
+    
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 12px;
+    align-content: end;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+}
+.dropdown-content a:hover {background-color: #ff0000}
+
+
+/*------------------------------------------------------------*/
+
+

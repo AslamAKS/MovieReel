@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+}
+
+
+.mainlogo{
+    width: 150px;
+    height: 100px;  
+    margin-top: 50px;
+}
+
+.rights{
+    margin: auto;
+    left: 50px;
+}

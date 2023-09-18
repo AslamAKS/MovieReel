@@ -1,0 +1,114 @@
+/* main class*/
+.movie-list {
+    background-color: rgba(0, 0, 0, 0.458);
+    white-space: nowrap;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* "trending" name and "view all" button style */
+
+
+
+.card-title-div {
+    top: 40px;
+    margin-left: 40px;
+    display: inline;
+    color: #ffffff;
+
+}
+
+.card-button-div {
+    margin-top: 30px;
+    left: 1200px;
+    position: relative;
+    background-color: #00000000;
+    border: 2px solid #ffffffaa;
+    color: white;
+    height:40px;
+
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.card-button-div:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* repeating class (cards in scroll)*/
+.scroll{
+    
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 230px;
+    margin-top: 20px;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
+.scroll-list {
+    top: 10px;
+    bottom: 10px;
+    left: 30px;
+    position: relative;
+    margin-left: 25px;
+    width: 400px;
+    height: 200px;
+    transition: .2s;
+}
+
+.scroll-list:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 1;
+}
+
+
+/* name and button style in over image */
+
+.list-name {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    position: absolute;
+    font-weight: 900;
+    font-size: larger;
+    max-width: 400px;
+}
+
+.list-watch-trailer {    /* place button over the image, using div, this is div property*/
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.list-watch-trailer-button {
+    background-color: #ff0000;
+    border: 2px solid #ff0000aa;
+    color: white;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 8px 18px;
+
+}
+
+.list-watch-trailer-button:hover {
+    background-color: white;
+    border: 2px solid #ffffffaa;
+    color: rgb(0, 0, 0);
+}

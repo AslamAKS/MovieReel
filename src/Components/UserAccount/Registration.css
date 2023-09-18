@@ -1,0 +1,108 @@
+.registration{
+    display: flex;
+    text-align: center;
+    height: 792px;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/95bae10c-9773-4447-af4e-612a244231bd/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+}
+
+.background{
+    height: 792px;
+    background-color: rgba(0, 0, 0, 0.737);
+    width: 100%;
+}
+
+
+.mainlogo{
+  width: 150px;
+  height: 100px;  
+}
+
+.form{
+  margin-top: 20px;
+  margin: auto;
+  width: 50%;
+  
+}
+
+
+
+  
+  .errorMsg {
+    max-width: 350px;
+    color: #f21e08;
+    padding: 2px 0;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .success-msg {
+    color: #7ca936;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-control label {
+    text-align: left;
+    width: 30%;
+    left: 0px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .form-control input[type="text"],
+  .form-control input[type="password"] {
+    width: auto;
+    padding: 12px 20px;
+    border: 2px solid red;
+  border-radius: 4px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-size: larger;
+  }
+  
+  button {
+    top: 30px;
+    right: 40px;
+    background-color: #ff0000;
+    border: 2px solid #ff0000aa;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:hover{
+    background-color: black;
+
+  }
+  
+/*  @media screen and (max-width: 600px) {
+    body {
+      width: 90%;
+    }
+  
+    .errorMsg {
+      max-width: 100%;
+    }
+  
+    .form-control {
+      flex-direction: column;
+    }
+  
+    .form-control input[type="text"],
+    .form-control input[type="password"] {
+      width: inherit;
+    }
+  } */
+  

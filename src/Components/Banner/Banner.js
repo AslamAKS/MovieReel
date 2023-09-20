@@ -13,7 +13,7 @@ function ImageSlider ()  {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,// Change this value to adjust the delay between slides (in milliseconds)
@@ -40,21 +40,17 @@ function ImageSlider ()  {
   }
 
   return (
-    <div className='sliderbackground'>
-        <div className='sliderbackgroundshadow'>
+    
         <Slider {...settings}>
       {state.map((image, index) => (
         <div key={index} className='slide-img'>
-          <img onClick={()=>{playVideo(image.id)}} style={{margin:'auto', width: 500, height: 300, borderRadius: 5, }} src={`${IMAGE_URL + image.backdrop_path}`} alt={`Slide ${index + 1}`} />
-          <h1 className='title'>{image.original_title}</h1>
-          <button onClick={()=>{playVideo(image.id)}} className='trailer-button'>Watch Now</button>
+          <img onClick={()=>{playVideo(image.id)}} style={{margin:'auto', width: 350, height: 250, borderRadius: 5, }} src={`${IMAGE_URL + image.backdrop_path}`} alt={`Slide ${index + 1}`} />
+          <h4 className='title'>{image.original_title}</h4>
         </div>
         
       ))}
     </Slider>
-    <div className="bottom-shade"></div>
-        </div>
-    </div>
+    
   );
 };
 

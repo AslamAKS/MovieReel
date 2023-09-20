@@ -1,80 +1,28 @@
 .head{
-    width: 100%;
-    z-index: 9;
-    position: fixed;
-    background-color: #00000089;
     display: flex;
+    height: 150px;
 }
-
-
-
-
+.logodiv{
+    width: 25%;
+}
 .logo{
     width: 150px;
-    height: 100px;
-    left: 20px;
-}
-
-
-
-
-/* following for dropdowns ("------------" indicate end)*/
-
-.dropdown-root-div{
+    height: 90px;
+    margin-top: 10px;
     margin-left: 20px;
-    width: fit-content;
 }
-  
 
-.dropdown{
-    position: relative;
-    margin-left: 40px;
-    margin-top: 30px;
-    display: inline-block;
+.nav{
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 
-
-.dropbtn {
-    background-color: #00000000;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    transition: .2s;
-    border: none;
-    cursor: pointer;   
+svg{
+    margin-top: 20%;
 }
-.dropbtn:hover {
-    background-color: rgba(255, 0, 0, 0.326);
-    transform: scale(1.1);
+h5{
+    margin-top: 10px;
 }
-
-
-.dropdown-content {
-    text-align: right;
-    border-radius: 5px;
-    display: none;
-    position: absolute;
-    background-color: #00000042;
-    width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-  
-
-.dropdown-content a {
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-    border-radius: 5px;
-    padding: 12px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {background-color: #ff0000}
-
-
-/*------------------------------------------------------------*/
-
-

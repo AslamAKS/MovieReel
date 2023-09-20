@@ -5,7 +5,6 @@
     height: 500px;
   }
 
-  
   .slider-slide {
     flex: 0 0 100%;
     transition: transform 0.5s ease-in-out;
@@ -25,50 +24,13 @@
     text-align: center;
     justify-content: center;
     justify-items: center;
-    width: 900px;
-    height: 500px;
-    margin-top: 150px;
+    width: 100%;
+    height: 300px;
   }
 
   .title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
-    font-size: 3rem;
-    font-weight: 900;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
-.trailer-button {
-    
-    background-color: #ff0000;
-    border: 2px solid #ff0000;
-    color: white;
-    
-    padding: 10px 24px;
-    border-radius: 12px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: inline-block;
-    font-size: 16px;
-}
-.trailer-button:hover {
-    border: 2px solid #ffffff;
-    background-color: white;
-    color: rgb(0, 0, 0);
-  }
 
 
-  .sliderbackground{
-    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/95bae10c-9773-4447-af4e-612a244231bd/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg');
-  }
-
-  .sliderbackgroundshadow{
-    background-color: #000000bc;
-  }
-
-  .bottom-shade{
-    
-    bottom: 0;
-    width: 100%;
-    height: 7.4rem;
-    background-image: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.566),#000000);
-}

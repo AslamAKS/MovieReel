@@ -1,0 +1,67 @@
+/* main class*/
+.movie-list-trending {
+    background-color: rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    margin-top: 50px;
+    height:max-content;
+}
+
+
+
+
+
+
+
+
+/* "trending" name and "view all" button style */
+
+
+
+.card-title-div {
+    top: 40px;
+    margin-left: 40px;
+    display: inline;
+    color: #ffffff;
+
+}
+
+/* repeating class (cards in scroll)*/
+.scroll-trending{
+    margin: auto;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 550px;
+}
+
+.scroll-trending::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+   
+  .scroll-trending::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+   
+  .scroll-trending::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+  }
+
+
+
+
+
+.scroll-list-trending {
+    position: relative;
+    margin-left: 25px;
+    width: 400px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.scroll-list-trending:hover{
+    transform: scale(1.05);
+    position: relative;
+    z-index: 1;
+}

@@ -4,7 +4,8 @@ body {
   color: rgb(255, 255, 255);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(0, 0, 0);
+  background: rgb(18,17,38);
+background: linear-gradient(47deg, rgba(18,17,38,1) 0%, rgba(9,9,107,1) 60%, rgba(0,117,70,1) 100%);
 }
 
 code {
@@ -12,4 +13,16 @@ code {
     monospace;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
 
+ 
+body::-webkit-scrollbar-track {
+  background-color: rgb(18,17,38);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0);
+  border-radius: 5px;
+}

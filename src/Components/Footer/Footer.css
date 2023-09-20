@@ -1,9 +1,10 @@
 .footer{
-    margin-top: 100px;
     height: 200px;
     display: flex;
-    background-color: rgb(57, 57, 57);
+    background-color: rgba(57, 57, 57, 0);
     text-align: center;
+    border-color: black;
+    border-top: 10px;
 }
 
 

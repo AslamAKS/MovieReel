@@ -1,6 +1,6 @@
 /* main class*/
 .movie-list {
-    background-color: rgba(0, 0, 0, 0.458);
+    background-color: rgba(0, 0, 0, 0);
     white-space: nowrap;
     margin-top: 50px;
 }
@@ -56,9 +56,23 @@
     height: 230px;
     margin-top: 20px;
 }
-.scroll::-webkit-scrollbar{
-    display: none;
-}
+
+.scroll::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+   
+  .scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+   
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+  }
+
+
+
 
 
 .scroll-list {
@@ -68,7 +82,7 @@
     position: relative;
     margin-left: 25px;
     width: 400px;
-    height: 200px;
+    height: max-content;
     transition: .2s;
 }
 

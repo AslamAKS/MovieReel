@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import './Card.css'
+import './CardForTrending.css'
 import {BASE_URL, IMAGE_URL, API_KEY } from '../../URLs'
 
 
-function Card(pops) {
+function CardForTrending(pops) {
   const navigate=useNavigate()
   const [state, setstate] = useState([])
   useEffect(() => {
@@ -24,20 +24,20 @@ function Card(pops) {
   }
   
   return (
-    <div className='movie-list'>
+    <div className='movie-list-trending'>
       <div>
         <h1 className='card-title-div'>{pops.title}</h1>
 
       </div>
 
-      <div className="scroll">
+      <div className="scroll-trending">
         {state.map((obj) => {
-          return (<div className="scroll-list">
-            <img onClick={() => { console.log(obj.id) }} style={{width: 400, height: 200, borderRadius: 5}} src={`${IMAGE_URL + obj.backdrop_path}`} alt="Movie preview" />
-            <div className="list-watch-trailer">
+          return (<div className="scroll-list-trending">
+            <img onClick={() =>  playVideo(obj.id)} style={{width: 300, height: 500, borderRadius: 5}} src={`${IMAGE_URL + obj.poster_path}`} alt="Movie preview" />
+            {/* <div className="list-watch-trailer">
               <button onClick={() =>  playVideo(obj.id) } className="list-watch-trailer-button">{pops.upComing ? "Watch Trailer" : "Play"}
               </button>
-              <h3 className="list-name">{obj.original_title}</h3></div>
+              <h3 className="list-name">{obj.original_title}</h3></div> */}
           </div>)
         })}
       </div>
@@ -45,4 +45,4 @@ function Card(pops) {
   )
 }
 
-export default Card
+export default CardForTrending

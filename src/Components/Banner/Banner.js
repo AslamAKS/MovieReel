@@ -13,10 +13,10 @@ function ImageSlider ()  {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,// Change this value to adjust the delay between slides (in milliseconds)
+    autoplaySpeed: 2000,// Change this value to adjust the delay between slides (in milliseconds)
     arrows: false, // Hide the arrow buttons
     adaptiveHeight: true, // Fit slide height to the content
     variableWidth: false,
@@ -44,7 +44,7 @@ function ImageSlider ()  {
         <Slider {...settings}>
       {state.map((image, index) => (
         <div key={index} className='slide-img'>
-          <img onClick={()=>{playVideo(image.id)}} style={{margin:'auto', width: 350, height: 250, borderRadius: 5, }} src={`${IMAGE_URL + image.backdrop_path}`} alt={`Slide ${index + 1}`} />
+          <img onClick={()=>{playVideo(image.id)}} style={{margin:'auto', width: 300, height: 500, borderRadius: 5, }} src={`${IMAGE_URL + image.poster_path}`} alt={`Slide ${index + 1}`} />
           <h4 className='title'>{image.original_title}</h4>
         </div>
         

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
-function Head() {
+function HeadForList() {
   return (
 
     <div className='head'>
@@ -32,15 +32,15 @@ function Head() {
         <div class="dropdown">
           <button class="dropbtn">Language</button>
         </div>
-        
-      </div>
-      <div className='dropdown' style={{right:'20px'}}>
+        <div className='dropdown' style={{right:'20px'}}>
           <button className='dropbtn'>Account</button>
           <div class="dropdown-content">
             <a href="/home">Profile</a>
             <a href="/home">LogOut</a>
           </div>
         </div>
+      </div>
+      
     </div>
 
 
@@ -49,4 +49,4 @@ function Head() {
   )
 }
 
-export default Head
+export default HeadForList

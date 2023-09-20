@@ -1,32 +1,25 @@
 /* main class*/
 .list-card {
     white-space: nowrap;
-    margin-top: 50px;
     max-width: 100%;
-    height: max-content;
+    position: relative;
 }
 
 
 
-
-
-
-
-
-/* "trending" name and "view all" button style */
+/* catogery name style */
 
 
 
 .card-title-div {
     top: 40px;
     margin-left: 40px;
-    display: inline;
     color: #ffffff;
 }
 
 
 
-/* repeating class (cards in scroll)*/
+/* repeating class (cards in scroll)(loop)*/
 .y-scroll {
     display: flex;
     flex-wrap: wrap;
@@ -41,8 +34,8 @@
     display: none;
 }
 
-
-.y-scroll-list {
+/*list content properties*/
+.y-scroll-list {        
     margin: auto;
     top: 10px;
     bottom: 10px;

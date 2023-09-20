@@ -1,9 +1,6 @@
 .head{
-    width: 100%;
-    z-index: 9;
-    position: fixed;
     background-color: #00000089;
-    display: flex;
+    margin-bottom: 20px;
 }
 
 
@@ -22,7 +19,7 @@
 
 .dropdown-root-div{
     margin-left: 20px;
-    width: fit-content;
+    width: 100%;
 }
   
 

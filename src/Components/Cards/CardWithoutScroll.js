@@ -27,9 +27,7 @@ function CardWithoutScroll(pops) {
         <div className='list-card'>
             <div>
                 <h1 className='card-title-div'>{pops.title}</h1>
-
             </div>
-
             <div className="y-scroll">
                 {state.map((obj) => {
                     return (
@@ -38,7 +36,7 @@ function CardWithoutScroll(pops) {
                             <div className="list-watch-trailer">
                                 <button onClick={() => playVideo(obj.id)} className="list-watch-trailer-button">{pops.upComing ? "Watch Trailer" : "Play"}
                                 </button>
-                                <h3 className="list-name">{obj.original_title}</h3></div>
+                                <h3 className="list-name">{obj.original_title ? obj.original_title : obj.original_name}</h3></div>
                         </div>
                     )
                 })}

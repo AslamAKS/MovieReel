@@ -1,28 +1,21 @@
 .head{
     display: flex;
-    height: 150px;
+    height: 100px;
+    width: 75%;
+    background-color: rgba(195, 108, 189, 0.725);
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .logodiv{
     width: 25%;
+    left:20px;
+    text-align: center;
 }
 .logo{
-    width: 150px;
-    height: 90px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.nav{
-    width: 50%;
-    display: flex;
-    
+    width: 200px;
+    height: 200px;
     margin: auto;
 }
 
 
-svg{
-    margin-top: 20%;
-}
-h5{
-    margin-top: 10px;
-}

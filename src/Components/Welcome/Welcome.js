@@ -13,7 +13,8 @@ function Welcome() {
     <div>
         <div className="first-div">
             <div className="dark-bg">
-            <h1>Unlimited movies, TV shows and more</h1>
+            <h1>Welcome To FILIMFLIX</h1>
+            <h3>Unlimited movies,Unlimited Enjoyment</h3>
             <button className='get-start' onClick={signUp}>Get Start</button>
             </div>
         </div>

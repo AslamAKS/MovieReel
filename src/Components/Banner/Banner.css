@@ -1,7 +1,6 @@
 .slider-container {
     display: flex;
     overflow: hidden;
-    width: 100%;
     height: 500px;
   }
 
@@ -19,18 +18,32 @@
   }
   
   .slide-img{
-   background-color: rgba(0, 0, 0, 0);
-    align-items: center;
+    margin-top: 10px;
     text-align: center;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    height: 300px;
   }
 
-  .title {
-    color: #ffffff;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);
-}
+  .banner{
+    display: flex;
+    height: 500px;
+    background-image: url('../../../public/BannerBackgroung.png');
+    background-size: cover;
+    margin-top: 20px;
+  }
 
+  .title{
+    width: 50%;
+    margin-left: 10px;
+    font-family: 'Gloock', serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+  }
+
+  .title h1{
+    font-size: 4rem;
+    
+  }
+
+.slider{
+  width: 50%;
+}
 

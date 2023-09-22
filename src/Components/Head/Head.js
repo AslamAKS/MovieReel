@@ -9,10 +9,12 @@ function Head() {
 
     <div className='head'>
       <div className="logodiv">
-        <img className='logo' src='MovieReel_logo.png' alt='logo.png' />
+        <img className='logo' src='HomePageLogo.png' alt='logo.png' />
         
       </div>
-      
+      <div className="navigator">
+      <Link to='/homescreen/trending'><h3>Trending</h3></Link>
+      </div>
       
     </div>
 

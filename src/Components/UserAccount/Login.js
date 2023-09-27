@@ -25,7 +25,7 @@ function Login() {
     <div className="registration">
       <div className="background">
       <div className="form">
-      <img className='mainlogo' src='https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png' alt='logo.png' />
+      <img className='mainlogo' src='HomePageLogo.png' alt='logo.png' />
 
       <form onSubmit={handleSubmit(onSubmit)}>
         {successMsg && <p className="success-msg">{successMsg}</p>}

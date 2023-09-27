@@ -42,7 +42,7 @@ function Registration() {
     <div className="registration">
       <div className="background">
         <div className="form">
-          <img className='mainlogo' src='https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png' alt='logo.png' />
+          <img className='mainlogo' src='HomePageLogo.png' alt='logo.png' />
 
           {/* {successMsg && <p className="success-msg">{successMsg}</p>} */}
 

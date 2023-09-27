@@ -1,34 +1,43 @@
-.first-div{
+.first-div {
     height: 786px;
-}
-.dark-bg{
     text-align: center;
-    width: 100%;
+    font-family: 'Gloock', serif;
+    
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 7%, rgba(115,0,99,1) 100%);
+justify-content: center;
+align-items: center;
 }
 
-.dark-bg h1{
-    margin-top: 300px;
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.first-div h1 {
     font-size: 4rem;
-    font-weight: 900;
     color: white;
 }
-.dark-bg h3{
+
+.first-div h3 {
     font-size: 2rem;
     color: white;
 }
 
-.get-start{
+.get-start {
     background-color: rgba(153, 0, 132, 1);
     border: 2px solid #ffffff;
     color: white;
     padding: 15px 29px;
-    border-radius: 12px;
     text-align: center;
     display: inline-block;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
 }
 
-.get-start:hover{
+.get-start:hover {
     background-color: black;
 }
+
+

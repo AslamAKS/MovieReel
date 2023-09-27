@@ -1,26 +1,30 @@
 import React from 'react'
 import './Welcome.css'
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 
 function Welcome() {
-  const navigate=useNavigate()
-  let signUp=()=>{
+  const navigate = useNavigate()
+  let signUp = () => {
     navigate('/signup')
   }
+  let logIn = () => {
+    navigate('/login')
+  }
   return (
-    <div>
-        <div className="first-div">
-            <div className="dark-bg">
-            <h1>Welcome To FILIMFLIX</h1>
-            <h3>Unlimited movies,Unlimited Enjoyment</h3>
-            <button className='get-start' onClick={signUp}>Get Start</button>
-            </div>
-        </div>
+      <div className="first-div">
+          <img src="HomePageLogo.png" alt="FILIMFLIX_LOGO" />
+        <h3>Unlimited movies,Unlimited Enjoyment</h3>
+        <div className="button-home">
+        <button className='get-start' onClick={logIn}>LOGIN</button>
+        <button className='get-start' onClick={signUp}>SIGNUP</button>
         
-    </div>
+        </div>
+      </div>
   )
 }
 
 export default Welcome
+
+

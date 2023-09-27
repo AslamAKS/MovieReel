@@ -2,6 +2,8 @@
     display: flex;
     text-align: center;
     height: 792px;
+    font-family: 'Gloock', serif;
+
 }
 
 .background{
@@ -10,7 +12,7 @@
 
 
 .mainlogo{
-  width: 150px;
+  width: 250px;
   height: 100px;  
 }
 
@@ -82,23 +84,4 @@
     background-color: black;
 
   }
-  
-/*  @media screen and (max-width: 600px) {
-    body {
-      width: 90%;
-    }
-  
-    .errorMsg {
-      max-width: 100%;
-    }
-  
-    .form-control {
-      flex-direction: column;
-    }
-  
-    .form-control input[type="text"],
-    .form-control input[type="password"] {
-      width: inherit;
-    }
-  } */
   
